@@ -3,7 +3,7 @@
  * Missouri State University, Fall 2018.
  *
  * @file lab10b.cpp
- * @author TODO: Part 2, Step 1 - Remove these instructions and place your name here; commit your changes with the commit message:
+ * @author Dalton McCart <mccart.42@live.missouristate.edu>
  * CSC232-LAB10 - Updated authors tag in lab10b.cpp
  */
 
