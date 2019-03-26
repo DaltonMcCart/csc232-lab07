@@ -39,6 +39,11 @@ Part 1: The following questions are related to changes made to lab07a.cpp
 4. What is the compiler message when passing a unique_ptr by value in the for
    loop?
 
+   error: use of deleted function 'std::unique_ptr<_Tp, _Dp>::unique_ptr(const
+    std::unique_ptr<_Tp, _Dp>&) [with _Tp = Song; _Dp = std::default_delete
+    <Song>]'
+        for (const auto song : songs) {
+
 -------------------------------------------------------------------------------
 Part 2: The following questions are related to changes made to lab07b.cpp
 -------------------------------------------------------------------------------
