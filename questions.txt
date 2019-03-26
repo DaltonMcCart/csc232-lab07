@@ -30,6 +30,12 @@ Part 1: The following questions are related to changes made to lab07a.cpp
 
 3. How come [Michael Jackson, Beat It] only appears once in the output?
 
+    [Michael Jackson, Beat It] only appears once because the method is
+    activated with a default value pointing at [Mr. Children, Namonaki Uta],
+    the pointers are then rearranged to point at [Michael Jackson, Beat It].
+    The first cout is the default pointer, the second cout is after the move
+    has been done.
+
 4. What is the compiler message when passing a unique_ptr by value in the for
    loop?
 
