@@ -17,6 +17,10 @@ Part 1: The following questions are related to changes made to lab07a.cpp
 
 1. What is the compiler message when assigning a unique_ptr to another variable?
 
+    error: use of deleted function 'std::unique_ptr<_Tp, _Dp>::unique_ptr(const
+    std::unique_ptr<_Tp, _Dp>&) [with _Tp = Song; _Dp = std::default_delete<Song
+    >]'
+
 2. What happened when you ran the program after making the changes in Part 1,
    Step 4? Speculate on why you are seeing what you see in the output.
 
