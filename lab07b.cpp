@@ -30,9 +30,9 @@ int main(int argc, char** argv) {
     // TODO: Part 2, Step 2a - Uncomment the following call to demoCreation()
     //demoCreation();
     // TODO: Part 2, Step 3a - Uncomment the following call to demoShareSwap()
-    //demoShareSwap();
+    demoShareSwap();
     // TODO: Part 2, Step 4 - Uncomment the following call to demoSharedPtrsWithSTL()
-    //demoSharedPtrsWithSTL();
+    demoSharedPtrsWithSTL();
     return EXIT_SUCCESS;
 }
 
@@ -68,6 +68,7 @@ void demoCreation() {
     cout << sp5->getArtist() << ", ";
     cout << sp5->getTitle() << endl;
     // TODO: Part 2, Step 2b - Assign sp2 to sp5 on the next line, prior to the cout
+    sp5 = sp2;
     cout << sp5->getArtist() << ", ";
     cout << sp5->getTitle() << endl;
 }
@@ -93,8 +94,8 @@ void demoShareSwap() {
     //Initialize with nullptr. sp7 is empty.
     shared_ptr<Song> sp7(nullptr);
     // TODO: Part 2, Step 3b - Uncomment out the next two lines
-    // cout << sp7->getArtist() << ", ";
-    // cout << sp7->getTitle() << endl;
+     //cout << sp7->getArtist() << ", ";
+     //cout << sp7->getTitle() << endl;
     // TODO: Part 2, Step 3c - Recomment out the above two lines.
 
     // Initialize with another shared_ptr. sp1 and sp2
@@ -129,3 +130,4 @@ void demoSharedPtrsWithSTL() {
         cout << s->getArtist() << ":" << s->getTitle() << endl;
     }
 }
+

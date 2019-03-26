@@ -3,7 +3,7 @@
  * Missouri State University, Fall 2018.
  *
  * @file   lab10a.cpp
- * @author TODO: Part 1, Step 1 - Remove these instructions and place your name and commit your changes with the message:
+ * @author Dalton McCart <mccart42@live.missouristate.edu>
  * CSC232-LAB10 - Updated author tag in lab10a.cpp
  */
 
@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
     // TODO: Part 1, Step 6a - Comment out the above call and uncomment the following call
     //songVector();
     //demoUniqueOwnership();
-    //demoUniqueArray(5);
+    demoUniqueArray(5);
 
     return EXIT_SUCCESS;
 }
@@ -58,14 +58,14 @@ void demoMoveUniquePtr() {
     cout << ptrA->getArtist() << endl;
 
     // TODO: Part 1, Step 3a - Uncomment out the next line
-    // auto ptrB = ptrA;
+    //auto ptrB = ptrA;
     // TODO: Part 1, Step 3b - Comment out the next line
     auto ptrB = move(ptrA);
 
     cout << ptrB->getArtist() << endl;
 
     // TODO: Part 1, Step 4 - Uncomment the next line.
-    //cout << ptrA->getArtist() << endl;
+    cout << ptrA->getArtist() << endl;
 }
 
 /**
