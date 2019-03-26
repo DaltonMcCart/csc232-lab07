@@ -24,6 +24,10 @@ Part 1: The following questions are related to changes made to lab07a.cpp
 2. What happened when you ran the program after making the changes in Part 1,
    Step 4? Speculate on why you are seeing what you see in the output.
 
+    The method prints "Diana Krall" twice. The pointer is referencing the
+    instance of _artist through getArtist() that is declared during
+    the makeUnique<Song> activation.
+
 3. How come [Michael Jackson, Beat It] only appears once in the output?
 
 4. What is the compiler message when passing a unique_ptr by value in the for
