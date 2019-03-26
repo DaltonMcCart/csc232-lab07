@@ -60,3 +60,8 @@ Part 2: The following questions are related to changes made to lab07b.cpp
 
 2. Did the program compile after you completed Part 2, Step 3b? If so, what
    happened when you executed the program? Explain the output.
+
+   The program did compile, but instead only printed the output 2 times instead
+    of 3. When the method activates, sp7 is declared as null, so when the cout
+    attempts to reference .getArtist() and .getTitle() it is referncing nothing
+    which throws an exceptions and stops the method at that point.
