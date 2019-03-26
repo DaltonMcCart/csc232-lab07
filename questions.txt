@@ -50,5 +50,13 @@ Part 2: The following questions are related to changes made to lab07b.cpp
 
 1. What is the output of your program after carrying out Part 2, Step 2b?
 
+    The last value changed to match the second value.
+
+   The Beatles, Im Happy Just to Dance With You
+   Lady Gaga, Just Dance
+   Elton John, I'm Still Standing
+   Lady Gaga, Just Dance
+
+
 2. Did the program compile after you completed Part 2, Step 3b? If so, what
    happened when you executed the program? Explain the output.
